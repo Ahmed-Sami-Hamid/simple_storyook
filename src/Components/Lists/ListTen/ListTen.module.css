@@ -1,0 +1,92 @@
+.list {
+  border: 1px solid #15182b;
+  border-radius: 4px;
+  padding: 20px;
+}
+.jobTitle {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #a34256;
+}
+.jobPostionWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
+}
+.jobPostion {
+  font-family: "Switzer", "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #15182b;
+}
+.jobLink {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #737373;
+  display: flex;
+}
+.icon {
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.infoText {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #15182b;
+  margin-right: 30px;
+}
+.infoIcon {
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+  .list {
+    text-align: center;
+    padding: 3vw;
+  }
+  .jobPostionWrap {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 319px) {
+  .jobTitle {
+    font-size: 5.4vw;
+  }
+  .jobPostion {
+    font-size: 6.2vw;
+  }
+  .jobLink {
+    font-size: 4.5vw;
+  }
+  .jobInfo {
+    display: flex;
+    flex-direction: column;
+  }
+  .infoText {
+    font-size: 4.2vw;
+  }
+  .infoIcon {
+    font-size: 4.2vw;
+  }
+}

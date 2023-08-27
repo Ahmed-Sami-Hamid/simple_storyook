@@ -1,0 +1,84 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* contact */
+.contact {
+  min-height: 277px;
+  padding: 50px;
+  /* background */
+  background-color: #0154d0;
+  background-image: url("../../../Assets/backgrounds/bg_contact_b2.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* tag */
+.tag {
+  display: block;
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* heading */
+.heading {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* social row */
+.socialRow {
+  margin: 0 auto;
+  max-width: 360px;
+}
+
+/* social col */
+.socialCol {
+  display: flex;
+  justify-content: center;
+}
+
+/* social */
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 50px;
+  min-width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: red;
+  background: linear-gradient(-45deg, #3773ff 40%, #ffffff 170%);
+}
+
+/* social icon */
+.socialIcon {
+  width: 25px;
+  height: 25px;
+  /* background */
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 576px) {
+  .contact {
+    padding: 50px 20px;
+  }
+  .socialRow {
+    max-width: 220px;
+  }
+}

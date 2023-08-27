@@ -1,0 +1,57 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* contact */
+.contact {
+  padding: 0 20px;
+  background-image: url("../../../Assets/backgrounds/bg_contact_b1.svg"),
+    linear-gradient(#37ecba, #75d473);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* heading */
+.heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Saira", sans-serif;
+  color: #010c02;
+}
+
+/* content */
+.content {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  color: #010c02;
+}
+
+/* cta */
+.cta {
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+  font-size: 0.8rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #010c02;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.cta:hover {
+  outline: 1px solid #ffffff;
+  color: #ffffff;
+  background-color: #75d473;
+}

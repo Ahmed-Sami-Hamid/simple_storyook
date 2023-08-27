@@ -1,0 +1,28 @@
+.listWrapper {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 22px;
+}
+.content {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #5d6180;
+}
+
+@media (max-width:768px) {
+    .listWrapper{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .icon{
+        margin-right: 0;
+    }
+}

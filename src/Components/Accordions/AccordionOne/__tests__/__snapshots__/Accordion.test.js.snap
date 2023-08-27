@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot testing of component render should render with no problem 1`] = `
+<div
+  className="accordion"
+>
+  <div
+    className="head"
+    data-testid="accordion-head"
+    onClick={[Function]}
+  >
+    <h3
+      className="heading"
+    >
+      Test Heading
+    </h3>
+    <div
+      className="icon"
+      data-testid="accordion-icon"
+    >
+      <BiChevronDown />
+    </div>
+  </div>
+  <Spacer
+    sm={true}
+  />
+  <div
+    className="body"
+    data-testid="accordion-body"
+  >
+    <p
+      className="content"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nisi tempora consectetur autem minima exercitationem quibusdam, similique esse deleniti maiores!
+    </p>
+  </div>
+</div>
+`;

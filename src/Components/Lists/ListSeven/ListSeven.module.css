@@ -1,0 +1,39 @@
+.listWrapper {
+  display: flex;
+  align-items: center;
+}
+.number {
+  font-family: fantasy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 74px;
+  line-height: 90px;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  margin-right: 20px;
+}
+.title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+@media (max-width: 768px) {
+  .listWrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .number {
+    margin-right: 0px;
+  font-size: 64px;
+
+  }
+  .title {
+    font-size: 20px;
+  }
+}

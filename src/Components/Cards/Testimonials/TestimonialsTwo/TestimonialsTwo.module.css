@@ -1,0 +1,102 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* testimonial */
+.testimonial {
+  height: calc(100% - 35px);
+  position: relative;
+  padding: 30px;
+  /* background  */
+  background-color: #c1000b;
+  background-image: url("../../../../Assets/backgrounds/contour_lines.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+
+/* avatar */
+.avatar {
+  /* positioning */
+  position: absolute;
+  top: -40px;
+  /* centering absolute */
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 80px;
+  height: 80px;
+  /* background  */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+/* name */
+.name {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: white;
+}
+
+/* company */
+.company {
+  font-size: 0.9rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  text-align: center;
+  color: white;
+}
+
+/* content */
+.content {
+  position: relative;
+}
+
+/* start-quote */
+.content::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 34px;
+  height: 27px;
+  /* background */
+  background-image: url("../../../../Assets/icons/start_quote.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* end-quote */
+.content::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 34px;
+  height: 27px;
+  /* background */
+  background-image: url("../../../../Assets/icons/end_quote.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* paragraph */
+.content p {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+}

@@ -1,0 +1,29 @@
+.list {
+  width: 440px;
+  padding: 20px;
+}
+.title {
+  font-family: "Switzer", "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #12141d;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.content {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #12141d;
+  opacity: 0.7;
+}
+
+@media (max-width: 481px) {
+    .list {
+        text-align: center;
+    }
+}

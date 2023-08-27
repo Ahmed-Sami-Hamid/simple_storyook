@@ -1,0 +1,12 @@
+export { default as HeroOne } from "../../Components/Heroes/HeroOne/HeroOne";
+export { default as HeroTwo } from "../../Components/Heroes/HeroTwo/HeroTwo";
+export { default as HeroThree } from "../../Components/Heroes/HeroThree/HeroThree";
+export { default as HeroFour } from "../../Components/Heroes/HeroFour/HeroFour";
+export { default as HeroFive } from "../../Components/Heroes/HeroFive/HeroFive";
+export { default as HeroSix } from "../../Components/Heroes/HeroSix/HeroSix";
+export { default as HeroSeven } from "../../Components/Heroes/HeroSeven/HeroSeven";
+export { default as HeroEight } from "../../Components/Heroes/HeroEight/HeroEight";
+export { default as HeroNine } from "../../Components/Heroes/HeroNine/HeroNine";
+export { default as HeroTen } from "../../Components/Heroes/HeroTen/HeroTen";
+export { default as HeroEleven } from "../../Components/Heroes/HeroEleven/HeroEleven";
+export { default as HeroTwelve } from "../../Components/Heroes/HeroTwelve/HeroTwelve";

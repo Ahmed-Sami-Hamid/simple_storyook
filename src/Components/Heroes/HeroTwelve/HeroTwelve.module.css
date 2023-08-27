@@ -1,0 +1,148 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* hero */
+.hero {
+  position: relative;
+  padding: 0 50px;
+  background-color: #ffffff;
+  z-index: 1;
+}
+
+/* columns */
+.col {
+  align-self: center;
+}
+
+/* image */
+.image {
+  height: 525px;
+  /* background */
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* tag */
+.tag {
+  position: relative;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "Cinzel", sans-serif;
+  color: #073196;
+}
+
+.tag::before {
+  content: "Lorem Ipusum";
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  z-index: -1;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Cinzel", sans-serif;
+  white-space: nowrap;
+  color: transparent;
+  opacity: 0.5;
+  -webkit-text-stroke: 0.3px;
+  -webkit-text-stroke-color: #073196;
+}
+
+/* logo */
+.logo {
+  height: 1.3rem;
+  /* background */
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+/* heading */
+.heading {
+  position: relative;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #0f172a;
+}
+
+/* content */
+.content {
+  font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #505050;
+}
+
+/* cta */
+.cta {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 0;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #1a488e;
+  text-decoration: unset;
+  transition: color 0.5s ease;
+}
+
+.cta svg {
+  margin-left: 5px;
+}
+
+.cta:hover {
+  color: #0f172a;
+}
+
+@media (max-width: 992px) {
+  .tag {
+    display: block;
+    text-align: center;
+  }
+  .tag::before {
+    right: 0;
+    margin: 0 auto;
+  }
+  .logo {
+    background-position: center;
+  }
+  .heading {
+    text-align: center;
+  }
+  .content {
+    text-align: center;
+  }
+  .cta {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero {
+    padding: 0 25px;
+  }
+  .image {
+    height: calc(525px * 0.8);
+  }
+}
+
+@media (max-width: 480px) {
+  .image {
+    height: calc(525px * 0.6);
+  }
+}
+
+@media (max-width: 360px) {
+  .image {
+    height: calc(525px * 0.5);
+  }
+}

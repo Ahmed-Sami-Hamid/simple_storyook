@@ -1,0 +1,32 @@
+.listWrapper {
+background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+}
+.title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #060c3c;
+}
+.content {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #5d6180;
+}
+@media only screen and (max-width: 768px) {
+  .listWrapper {
+    text-align: center;
+  }
+  .title {
+    font-size: 16px;
+  }
+  .content {
+    font-size: 14px;
+  }
+}

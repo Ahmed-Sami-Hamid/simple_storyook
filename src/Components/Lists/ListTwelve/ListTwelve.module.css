@@ -1,0 +1,37 @@
+.list {
+  width: 400px;
+  padding: 20px;
+}
+.number {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #0f172a;
+  border-bottom: 1.5px solid #0f172a;
+}
+
+.heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #0f172a;
+  margin: 15px 0px;
+}
+.content {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #505050;
+}
+
+@media (max-width: 480px) {
+  .list {
+    text-align: center;
+  }
+}

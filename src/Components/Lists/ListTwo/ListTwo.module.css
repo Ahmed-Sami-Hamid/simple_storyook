@@ -1,0 +1,23 @@
+/* list */
+.list {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+/* image */
+.image {
+  height: 90px;
+  /* background */
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* heading */
+.heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #0f172a;
+}

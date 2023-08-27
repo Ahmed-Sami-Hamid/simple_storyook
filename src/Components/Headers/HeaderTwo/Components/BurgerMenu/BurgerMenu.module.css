@@ -1,0 +1,35 @@
+.BurgerIcon {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 25px;
+  overflow: hidden;
+  justify-content: space-between;
+  align-items: flex-end;
+  transition: all 0.7s ease;
+}
+
+.BurgerIcon div {
+  display: flex;
+  height: 2px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 32.5px;
+  transition: all 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.BottomSlice {
+  width: 18px !important;
+}
+
+.BurgerIcon .TopSlice {
+  transform: rotateZ(-45deg);
+  transform-origin: center right;
+}
+.BurgerIcon .MidSlice {
+  transform: translateX(50px) scale(0.5);
+}
+.BurgerIcon .BottomSliceActive {
+  transform: rotateZ(45deg);
+  transform-origin: center right;
+}

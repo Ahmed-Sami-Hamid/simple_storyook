@@ -1,0 +1,105 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* current icon */
+.current > .head > .icon > svg {
+  color: #522b7d;
+}
+
+/* current heading */
+.current > .head > .heading {
+  position: relative;
+  color: #522b7d;
+}
+
+.current > .head > .heading::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 10px;
+  border-radius: 50px;
+  z-index: -1;
+  background: linear-gradient(#8041cc25 50%, #ffffff 100%);
+  transform-origin: left;
+  animation: scale 0.8s ease;
+  transition: width 0.5s ease;
+}
+
+/* current content */
+.current > .content {
+  color: #262229;
+}
+
+/* head */
+.head {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* icon */
+.icon > svg {
+  width: 35px;
+  height: 35px;
+  margin-right: 15px;
+}
+
+/* heading */
+.heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "Lexend Deca", sans-serif;
+  color: #0f172a;
+}
+
+/* content */
+.content {
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  color: #505050;
+  cursor: pointer;
+}
+
+@keyframes scale {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@media (max-width: 992px) {
+  .head {
+    justify-content: center;
+  }
+  .heading,
+  .content {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .head {
+    flex-direction: column;
+    align-items: center;
+  }
+  .icon > svg {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .current > .head > .heading::before {
+    width: 50%;
+    left: 0;
+    margin: 0 auto;
+  }
+}

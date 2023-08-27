@@ -1,0 +1,44 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* quote */
+.quote {
+  padding: 0 50px;
+  /* background */
+  background-color: #c8000b;
+  background-image: url("../../../../Assets/backgrounds/bg_contact_b4.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* heading */
+.heading {
+  font-size: 2.5rem;
+  font-weight: 500;
+  font-family: "Reenie Beanie", sans-serif;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* author */
+.author {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: "Reenie Beanie", sans-serif;
+  text-align: right;
+  color: #ffffff;
+}
+
+@media (max-width: 576px) {
+  .quote {
+    padding: 0 20px;
+  }
+}
